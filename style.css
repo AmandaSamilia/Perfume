@@ -164,6 +164,7 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+    color: aliceblue;
 }
 
 .principal {
@@ -175,14 +176,17 @@ td, th {
 
 .principal p {
 	margin: 0 0 1em;
+    color: aliceblue;
 }
 
 .principal strong {
 	font-weight: bold;
+    color: aliceblue;
 }
 
 .principal em {
 	font-style: italic;
+    color: aliceblue;
 }
 
 .utensilios {
@@ -254,6 +258,23 @@ td, th {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+
+.final {
+    background: url("images.jpeg");
+}
 
 	h1 {
 		text-align: center;
