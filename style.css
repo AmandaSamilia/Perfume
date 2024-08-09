@@ -273,7 +273,7 @@ td, th {
 }
 
 .final {
-    background: url("images.jpeg");
+    background: black;
 }
 
 	h1 {
@@ -287,4 +287,3 @@ td, th {
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
-}
